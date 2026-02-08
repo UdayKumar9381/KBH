@@ -12,9 +12,6 @@ const SPREADSHEET_ID = process.env.SPREADSHEET_ID || "1frMdQU6mBUtFZbyIkEsw2shUl
 // CORS Configuration
 app.use(cors({
   origin: [
-    "https://food-sigma-rosy.vercel.app",
-    "https://food-fee.onrender.com",
-    "https://food-fee-frontend.vercel.app",
     "http://localhost:5173",
     "http://localhost:3000",
     "http://localhost:8003",

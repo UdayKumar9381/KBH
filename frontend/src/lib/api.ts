@@ -5,7 +5,7 @@ const API_BASE_URL = import.meta.env.VITE_API_URL || "https://food-fee.onrender.
 
 const axiosInstance = axios.create({
   baseURL: API_BASE_URL,
-  timeout: 30000, // Increased to 30s (Render free tier can be slow on cold starts)
+  timeout: 10000, // Increased to 30s (Render free tier can be slow on cold starts)
   headers: {
     'Content-Type': 'application/json',
   },
