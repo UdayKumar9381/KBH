@@ -34,6 +34,6 @@ To fix or update the Google Sheets integration, follow these steps in the [Googl
 
 ## Backend Setup
 
-1.  Navigate to `backend/`.
+1.  Navigate to `server/`.
 2.  Run `npm install`.
 3.  Run `node server.js` to start the backend.
