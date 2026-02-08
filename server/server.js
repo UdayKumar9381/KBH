@@ -12,6 +12,8 @@ const SPREADSHEET_ID = process.env.SPREADSHEET_ID || "1frMdQU6mBUtFZbyIkEsw2shUl
 // CORS Configuration
 app.use(cors({
   origin: [
+    "https://kbh-ljlw.onrender.com",
+    "https://kbh-virid.vercel.app",
     "http://localhost:5173",
     "http://localhost:3000",
     "http://localhost:8003",
