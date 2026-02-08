@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Backend API base URL
-const API_BASE_URL = import.meta.env.VITE_API_URL || "https://food-fee.onrender.com";
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://kbh-ljlw.onrender.com";
 
 const axiosInstance = axios.create({
   baseURL: API_BASE_URL,
